@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .layout {
+            display: flex;
+        }
+
+        #sidebar {
+            width: 25%;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        #sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #sidebar a:hover {
+            color: #00bcd4;
+        }
+
+        .main-content {
+            width: 75%;
+            padding: 30px;
+        }
+
+        .main-content h1 {
+            color: #333;
+        }
+
+        .main-content p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="layout">
+        <aside id="sidebar">
+            <h3>Menu</h3>
+
+            <nav>
+                <a href="../index.html">Beranda</a>
+                <a href="../pages/about.html">Tentang</a>
+                <a href="../pages/gallery.html">Proyek</a>
+                <a href="../pages/contact.html">Kontak</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Selamat Datang</h1>
+
+            <p>Selamat datang di halaman portofolio saya.</p>
+
+            <p>Saya sedang belajar pemrograman web dan teknologi komputer.</p>
+
+            <p>Melalui halaman ini, saya menampilkan informasi dan proyek yang telah saya kerjakan.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="../index.html">Back To Home</a>
+    </footer>
+
+</body>
+</html>
