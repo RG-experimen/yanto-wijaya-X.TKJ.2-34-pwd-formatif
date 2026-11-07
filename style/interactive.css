@@ -1,0 +1,38 @@
+.menu a {
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-grow {
+    background-color: blue;
+    color: white;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    background-color: #444;
+    color: white;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #222;
+}
+
+a:focus {
+    outline: 2px solid blue;
+}
