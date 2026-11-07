@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    padding: 25px;
+}
+
+#components h2,
+#pages h2 {
+    color: #333333;
+    font-size: 24px;
+}
+
+main a {
+    color: #0066cc;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #dddddd;
+    padding: 10px;
+}
